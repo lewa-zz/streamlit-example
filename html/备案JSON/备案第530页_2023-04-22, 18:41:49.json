@@ -1,0 +1,150 @@
+{
+    "code": "0",
+    "data": {
+        "list": [
+            {
+                "baId": "e206e8cc-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2020-441900-48-03-072854",
+                "totalMoney": 650,
+                "fullName": "东莞市石排镇经济发展局",
+                "finishDate": "2020-08-24",
+                "stateFlagName": "办结（通过）",
+                "projectName": "石排镇田边村农村雨污分流改造工程"
+            },
+            {
+                "baId": "e20a5e03-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2020-441900-48-03-072875",
+                "totalMoney": 3000,
+                "fullName": "东莞市道滘镇经济发展局",
+                "finishDate": "2020-08-24",
+                "stateFlagName": "办结（通过）",
+                "projectName": "道滘镇蔡白村水乡特色示范村庄建设工程"
+            },
+            {
+                "baId": "e20b6799-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2020-441900-76-03-073173",
+                "totalMoney": 13482.52,
+                "fullName": "东莞市虎门镇经济发展局",
+                "finishDate": "2020-08-24",
+                "stateFlagName": "办结（通过）",
+                "projectName": "东莞市虎门镇新龙眼排涝站工程"
+            },
+            {
+                "baId": "e20b72c8-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2020-441900-48-03-073629",
+                "totalMoney": 400,
+                "fullName": "东莞市大岭山镇经济发展局",
+                "finishDate": "2020-08-24",
+                "stateFlagName": "办结（通过）",
+                "projectName": "东莞市大岭山镇旧飞鹅村委会后山崩塌地质灾害治理工程"
+            },
+            {
+                "baId": "e20b7afc-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2020-441900-78-03-073128",
+                "totalMoney": 663.3,
+                "fullName": "东莞市石排镇经济发展局",
+                "finishDate": "2020-08-24",
+                "stateFlagName": "办结（通过）",
+                "projectName": "石排镇李家坊村农村雨污分流建设工程"
+            },
+            {
+                "baId": "e20c00bd-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2020-441900-47-03-073279",
+                "totalMoney": 65,
+                "fullName": "东莞市横沥镇经济发展局",
+                "finishDate": "2020-08-24",
+                "stateFlagName": "办结（通过）",
+                "projectName": "长巷村党群服务中心综合提升"
+            },
+            {
+                "baId": "e20c35b8-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2020-441900-78-03-073408",
+                "totalMoney": 932.34,
+                "fullName": "东莞市石排镇经济发展局",
+                "finishDate": "2020-08-24",
+                "stateFlagName": "办结（通过）",
+                "projectName": "东莞市石排镇中坑村雨污分流工程"
+            },
+            {
+                "baId": "e20c807f-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2020-441900-46-03-073519",
+                "totalMoney": 1133,
+                "fullName": "东莞市石排镇经济发展局",
+                "finishDate": "2020-08-24",
+                "stateFlagName": "办结（通过）",
+                "projectName": "石排村农村雨污分流改造工程"
+            },
+            {
+                "baId": "e20cb1d0-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2020-441900-78-03-073970",
+                "totalMoney": 690.97,
+                "fullName": "东莞市石排镇经济发展局",
+                "finishDate": "2020-08-24",
+                "stateFlagName": "办结（通过）",
+                "projectName": "石排镇向西村雨污分流建设工程"
+            },
+            {
+                "baId": "e20d24bb-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2020-441900-50-03-074067",
+                "totalMoney": 748.61,
+                "fullName": "东莞市厚街镇经济发展局",
+                "finishDate": "2020-08-24",
+                "stateFlagName": "办结（通过）",
+                "projectName": "东莞市厚街经济发展总公司家具研发楼（东副楼）饭堂、餐厅装修工程"
+            },
+            {
+                "baId": "e20d7e45-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2020-441900-48-03-073981",
+                "totalMoney": 1400,
+                "fullName": "东莞市石碣镇经济发展局",
+                "finishDate": "2020-08-24",
+                "stateFlagName": "办结（通过）",
+                "projectName": "梁家村铭华路整体提升工程"
+            },
+            {
+                "baId": "e20e03d7-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2020-441900-77-03-074197",
+                "totalMoney": 861.32,
+                "fullName": "东莞市石排镇经济发展局",
+                "finishDate": "2020-08-24",
+                "stateFlagName": "办结（通过）",
+                "projectName": "石排镇庙边王村雨污分流工程"
+            },
+            {
+                "baId": "e20e4281-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2020-441900-78-03-074276",
+                "totalMoney": 544,
+                "fullName": "东莞市石排镇经济发展局",
+                "finishDate": "2020-08-24",
+                "stateFlagName": "办结（通过）",
+                "projectName": "石排镇沙角村雨污分流建设工程"
+            },
+            {
+                "baId": "e20ee9f5-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2020-441900-72-03-074504",
+                "totalMoney": 100,
+                "fullName": "东莞市横沥镇经济发展局",
+                "finishDate": "2020-08-24",
+                "stateFlagName": "办结（通过）",
+                "projectName": "张坑村文化活动中心改造工程"
+            },
+            {
+                "baId": "e202106b-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2020-441900-78-03-069547",
+                "totalMoney": 229,
+                "fullName": "东莞市黄江镇经济发展局",
+                "finishDate": "2020-08-21",
+                "stateFlagName": "办结（通过）",
+                "projectName": "东莞市黄江镇刁朗旧围榕树头公园升级改造工程"
+            }
+        ],
+        "pageNumber": 530,
+        "pageSize": 15,
+        "totalPage": 641,
+        "totalRow": 9605,
+        "firstPage": false,
+        "lastPage": false
+    },
+    "message": "查询成功！",
+    "status": 200
+}

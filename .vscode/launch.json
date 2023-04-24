@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Pyramid Application",
+            "type": "python",
+            "request": "launch",
+            "module": "pyramid.scripts.pserve",
+            "args": [
+                "${workspaceFolder}/development.ini"
+            ],
+            "pyramid": true,
+            "jinja": true,
+            "justMyCode": true
+        },
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "justMyCode": true
+        }
+    ]
+}

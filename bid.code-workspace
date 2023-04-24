@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../projcron"
+		},
+		{
+			"path": "../bid/bid_spider"
+		}
+	],
+	"settings": {}
+}

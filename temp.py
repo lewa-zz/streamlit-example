@@ -1,60 +1,118 @@
+类的方法
 
-    page.get_by_text("展开").click()
-    page.locator("label").filter(has_text="工程监理").locator("span").nth(1).click()
-    page.locator("label").filter(has_text="信息系统工程监理").locator("span").nth(1).click()
-    page.locator("#serviceType").get_by_text("收起").click()
-    page.get_by_placeholder("选取时间").click()
-    page.get_by_role("cell", name="«").click()
-    page.get_by_role("cell", name="今日").click()
-    page.get_by_placeholder("选取时间").click()
-    page.get_by_placeholder("至").click()
-    page.get_by_role("cell", name="今日").click()
-    page.get_by_placeholder("选取时间").click()
-    page.get_by_placeholder("选取时间").fill("2021-1-1")
-    page.locator("input[name=\"listVo\\.projectName\"]").click()
-    page.get_by_placeholder("选取时间").click()
-    page.get_by_role("cell", name="清除").click()
-    page.get_by_placeholder("至").click()
-    page.get_by_role("cell", name="清除").click()
-    page.get_by_role("button", name="搜索").click()
-    page.get_by_role("cell", name="东莞市东城水务工程运营中心").click()
-    page.get_by_role("row", name="东莞市东城东部片区重点河涌补水系统完善工程监理服务 东莞市东城水务工程运营中心 工程监理 广州万安建设监理有限公司 2023-03-20").get_by_role("cell", name="工程监理", exact=True).click()
-    page.get_by_role("cell", name="广州万安建设监理有限公司").click()
-    page.get_by_role("row", name="东莞市东城东部片区重点河涌补水系统完善工程监理服务 东莞市东城水务工程运营中心 工程监理 广州万安建设监理有限公司 2023-03-20").get_by_role("cell", name="2023-03-20").click()
-    page.get_by_role("cell", name="东莞市东城东部片区重点河涌补水系统完善工程监理服务").click()
-    page.get_by_text("东莞市东城水务工程运营中心", exact=True).click()
-    with page.expect_popup() as page1_info:
-        page.get_by_role("link", name="东莞市东城东部片区重点河涌补水系统完善工程监理服务").click()
-    page1 = page1_info.value
-    page.get_by_text("暂不做评估与测算").click()
-    page1.get_by_text("投资额（￥950,000.00元）").click()
-    page.goto("https://ygp.gdzwfw.gov.cn/zjfwcs/gd-zjcs-pub/bidResultNotice")
-    page2 = context.new_page()
-    page2.goto("https://ygp.gdzwfw.gov.cn/zjfwcs/gd-zjcs-pub/bidResultNotice/view/4402810585615482303150272")
-    page2.get_by_role("listitem").filter(has_text="服务金额： ￥30,000.00元").locator("div").click()
-    page2.get_by_role("listitem").filter(has_text="中选金额： ￥30,000.00元").locator("div").click()
-    page3 = context.new_page()
-    page3.goto("https://ygp.gdzwfw.gov.cn/zjfwcs/gd-zjcs-pub/bidResultNotice/view/441302K305988112303150417")
-    page3.locator("div").filter(has_text="广东三农工程技术有限公司").click()
-    page3.close()
-    page2.close()
-    page1.close()
-    page.locator("div").filter(has_text="广东省网上中介服务超市 Toggle navigation 项目业主登录 | 中介机构登录 超市首页 中介服务事项 中介服务机构 项目公告 评价中心 运营概况 ").get_by_role("link", name="超市首页").click()
-    page.locator("div").filter(has_text="全类目 中介服务事项 中介服务机构 项目公告 评价中心 运营概况 通知公告 超市指南").get_by_role("link", name="项目公告").click()
-    page.get_by_role("link", name="梅州中心城区污水处理效能提升建设工程（周溪河水质净化厂配套污水管网一期）地下管线探测服务").click()
-    page.locator("div").filter(has_text="工程勘察").click()
-    page.get_by_text("地下管线探测服务", exact=True).click()
-    page.get_by_role("link", name="中选公告").click()
-    page.get_by_role("link", name="惠州南站综合交通枢纽项目工程预算编制服务").click()
-    with page.expect_popup() as page4_info:
-        page.get_by_role("link", name="惠州南站综合交通枢纽项目工程预算编制服务").click()
-    page4 = page4_info.value
-    page4.get_by_text("2023-03-17 16:00", exact=True).click()
-    page.get_by_text("我单位于2023-03-17 16:00， 在广东省网上中介服务超市为惠州市惠阳区人民政府淡水街道办事处公开选取工程造价咨询中介服务机构，现将中选结果相关事项公").click()
-    page.goto("https://ygp.gdzwfw.gov.cn/zjfwcs/gd-zjcs-pub/bidResultNotice")
-    page.get_by_role("link", name="小金口街道乌石村田心村民小组道路硬底化工程采购工程设计服务").click()
-    page.get_by_text("该公司资质符合要求，综合评分高，业务能力强。").click()
-    page.get_by_text("广州市天河区大观南路26号C203A").click()
-    page.get_by_role("listitem").filter(has_text="中选金额： ￥12,100.00元").locator("div").click()
-    page4.close()
-    page.close()
+    # @classmethod
+    # def from_dict(cls, request_dict):
+    #     for key, value in request_dict.items():
+    #         if isinstance(value, bytes):  # 反序列化 如item
+    #             request_dict[key] = utils.tools.loads_obj(value)
+
+    #     return cls(**request_dict)
+
+    # def copy(self):
+    #     return self.__class__.from_dict(copy.deepcopy(self.to_dict))
+
+
+
+
+
+#amo      = int(re.findall(r'\d+(\.\d+)?',page_amo)[0]
+    i=0
+    j=1
+    #循环取出记录,打开页面.
+    while i < rec_total:
+    #for j in range(0,page_amo):
+        #每页的记录 id为procurementAnnouncementShowList下级的li中的a标签
+        #li = page.locator('//*[@id="procurementAnnouncementShowList"]/li/a')
+        li = page.locator('#procurementAnnouncementShowList').locator("a")
+        #print(li.text_content())
+
+
+        #每页做完,点下一页继续.
+        #ID为pagination下面的<li>></li> text是精准,不用has_text
+        print("记录i: %d , 第J页 is %d"%(i,j))
+        #if j <= page_amo-1: #最后一页不用点
+        if i < rec_total: 
+            page.locator('#pagination').locator('li:text(">")').click()
+            page.wait_for_timeout(2000)
+            #page.wait_for_load_state()
+            j += 1
+
+
+def test_normalize():
+    json_obj = {
+        'school': 'ABC primary school',
+        'location': 'London',
+        'ranking': 2,
+        'info': {
+            'president': 'John Kasich',
+            'contacts': {
+                'email': {
+                    'admission': 'admission@abc.com',
+                    'general': 'info@abc.com'
+                },
+                'tel': '123456789',
+            }
+        }
+    }
+    pd.json_normalize(json_obj)
+
+
+
+
+class TabBa(BaseModel):
+    id = BigAutoField()
+    data_id = CharField(null=True)
+    add_time = CharField(null=True)
+    apply_organ = CharField(null=True)
+    begin_date = DateField(null=True)
+    expiry_date = DateField(null=True)
+    finish_date = DateField(null=True)
+    full_name = CharField(null=True)
+    has_start = IntegerField(null=True)
+    is_validity = CharField(null=True)
+    note = CharField(null=True)
+    over_date = DateField(null=True)
+    place = CharField(null=True)
+    project_name = CharField(null=True)
+    proof_or_serial_code = CharField(null=True)
+    scope = TextField(null=True)
+    sfjz = CharField(null=True)
+    state_flag_name = CharField(null=True)
+    submit_date = CharField(null=True)
+    total_invest = IntegerField(null=True)
+    update_time = CharField(null=True)
+    
+
+        # self.page.get_by_role("link", name="更多>").first.click()
+        # self.page.get_by_role("combobox").select_option("441900")
+        # self.page.get_by_role("button", name="查询").click()
+        # self.page.wait_for_load_state("networkidle")
+        # print("++++++++++")
+        # self.page.pause()
+        # self.page.get_by_role("button", name="查询").click()
+        # self.page.get_by_role("button", name="查询").click()
+        # self.page.get_by_role("button", name="查询").click()
+        # self.page.get_by_role("definition").filter(has_text="2304-441900-04-01-254812 东莞市茶山镇塘角水围花园新村别墅住宅区雨污分流改造工程 办结（通过） 2023-04-17 详情").get_by_role("link", name="详情").click()
+        # self.page.get_by_role("cell", name="项目为东莞市茶山镇塘角水围花园新村别墅住宅区雨污分流改造工程：项目占地面积11330平方米，建筑面积2125平方米。机械锯混凝土地面缝、建筑排水立管改造、拆除和破除巷道路面、埋地接驳排水管、塑料管（污水接驳管）,其中（PVC-U）管DN150共122米，（PVC-U）管DN100共4810米。").click()
+        # self.page.get_by_role("cell", name="45万元").click()
+        # self.page.get_by_role("button", name="返回列表").click()
+        # self.page.get_by_text("9545").click()
+        # self.page.get_by_text("637").click()
+        # self.page.get_by_text("共637页共9545条记录当前第1页").click()
+        # self.page.get_by_text("下一页").click()
+        # self.page.get_by_text("下一页").click()
+        # self.page.get_by_role("definition").filter(has_text="2304-441900-04-01-838783 东城街道 温塘社区温塘砖窑一横路23号60.5kW户用分布式光伏发电项目 办结（通过） 2023-04-14 ").get_by_role("link", name="详情").click()
+        # self.page.get_by_text("项目信息").click()
+        # self.page.get_by_role("button", name="返回列表").click()
+        # self.page.locator("a").filter(has_text="公示信息").click()
+        # self.page.locator("a").filter(has_text="公示信息").click()
+        # self.page.get_by_text("办理结果公示").click()
+        # self.page.get_by_text("项目公示").first.click()
+        # self.page.get_by_role("link", name="更多>").nth(1).click()
+        # self.page.get_by_role("combobox").select_option("441900")
+        # self.page.get_by_role("button", name="查询").click()
+        # self.page.get_by_role("button", name="查询").click()
+        # self.page.get_by_role("button", name="返回列表").click()
+        # self.page.get_by_role("link", name="更多>").nth(2).click()
+        # self.page.get_by_role("combobox").select_option("441900")
+        # self.page.get_by_role("button", name="查询").click()

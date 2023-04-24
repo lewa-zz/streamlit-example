@@ -1,0 +1,150 @@
+{
+    "code": "0",
+    "data": {
+        "list": [
+            {
+                "baId": "e3ac6b89-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2110-441900-04-01-861311",
+                "totalMoney": 13393.36,
+                "fullName": "东莞市桥头镇经济发展局",
+                "finishDate": "2021-10-08",
+                "stateFlagName": "办结（通过）",
+                "projectName": "中兴瑞电子科技建设项目二期"
+            },
+            {
+                "baId": "e3af1326-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2110-441900-04-05-558407",
+                "totalMoney": 500,
+                "fullName": "东莞市茶山镇经济发展局",
+                "finishDate": "2021-10-08",
+                "stateFlagName": "办结（通过）",
+                "projectName": "东莞市上一电子科技有限公司年产键盘65万个、鼠标25万个、手机保护壳10万个新建项目"
+            },
+            {
+                "baId": "e3b244a7-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2110-441900-04-01-150400",
+                "totalMoney": 385.81,
+                "fullName": "东莞市黄江镇经济发展局",
+                "finishDate": "2021-10-08",
+                "stateFlagName": "办结（通过）",
+                "projectName": "板湖旧街人居环境升级改造工程"
+            },
+            {
+                "baId": "e3b24748-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2110-441900-04-01-855160",
+                "totalMoney": 314.25,
+                "fullName": "东莞市黄江镇经济发展局",
+                "finishDate": "2021-10-08",
+                "stateFlagName": "办结（通过）",
+                "projectName": "板湖村支线道路“白变黑”工程"
+            },
+            {
+                "baId": "e3b30ded-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2110-441900-04-01-302205",
+                "totalMoney": 1977.15,
+                "fullName": "东莞市寮步镇经济发展局",
+                "finishDate": "2021-10-08",
+                "stateFlagName": "办结（通过）",
+                "projectName": "岭厦社区道路升级工程"
+            },
+            {
+                "baId": "e3b3893e-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2110-441900-04-01-258819",
+                "totalMoney": 120,
+                "fullName": "东莞市长安镇经济发展局",
+                "finishDate": "2021-10-08",
+                "stateFlagName": "办结（通过）",
+                "projectName": "锦厦社区荣文路23号分布式光伏电站"
+            },
+            {
+                "baId": "e3562c98-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2107-441900-04-02-603452",
+                "totalMoney": 5000,
+                "fullName": "东莞市麻涌镇经济发展局",
+                "finishDate": "2021-09-30",
+                "stateFlagName": "办结（通过）",
+                "projectName": "玖龙纸业（东莞）有限公司12MWp分布式光伏发电项目"
+            },
+            {
+                "baId": "e36fce2e-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2109-441900-04-01-722108",
+                "totalMoney": 4000,
+                "fullName": "东莞市常平镇经济发展局",
+                "finishDate": "2021-09-30",
+                "stateFlagName": "办结（通过）",
+                "projectName": "东莞市汇得家家具制造有限公司厂区项目"
+            },
+            {
+                "baId": "e3979adf-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2109-441900-04-01-224891",
+                "totalMoney": 116,
+                "fullName": "东莞市茶山镇经济发展局",
+                "finishDate": "2021-09-30",
+                "stateFlagName": "办结（通过）",
+                "projectName": "东莞市兴业钮扣制品有限公司198.94kWp分布式光伏发电项目"
+            },
+            {
+                "baId": "e39d34eb-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2109-441900-04-01-677625",
+                "totalMoney": 9500,
+                "fullName": "东莞市常平镇经济发展局",
+                "finishDate": "2021-09-30",
+                "stateFlagName": "办结（通过）",
+                "projectName": "东莞市欧瑞家具制造有限公司现代家具生产项目（二期）"
+            },
+            {
+                "baId": "e3a188b6-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2109-441900-04-01-145667",
+                "totalMoney": 70081.95,
+                "fullName": "东莞市常平镇经济发展局",
+                "finishDate": "2021-09-30",
+                "stateFlagName": "办结（通过）",
+                "projectName": "常平镇桥梓桥城高新产业园"
+            },
+            {
+                "baId": "e3a211f2-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2109-441900-04-01-843077",
+                "totalMoney": 12000,
+                "fullName": "东莞市沙田镇经济发展局",
+                "finishDate": "2021-09-30",
+                "stateFlagName": "办结（通过）",
+                "projectName": "广东浩汜新材料有限公司年产3.6万吨化工新材料建设项目"
+            },
+            {
+                "baId": "e3a396c5-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2109-441900-04-01-142427",
+                "totalMoney": 344502.54,
+                "fullName": "东莞市虎门镇经济发展局",
+                "finishDate": "2021-09-30",
+                "stateFlagName": "办结（通过）",
+                "projectName": "东莞市物合置业有限公司虎门镇2021WR023地块项目"
+            },
+            {
+                "baId": "e3a6a29a-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2109-441900-04-01-832557",
+                "totalMoney": 349.6,
+                "fullName": "东莞市厚街镇经济发展局",
+                "finishDate": "2021-09-30",
+                "stateFlagName": "办结（通过）",
+                "projectName": "新围社区各村小组巷道硬底化及雨污分流项目（一期）"
+            },
+            {
+                "baId": "e3a9a693-73ae-11ec-9ad9-fa164ee08b71",
+                "projectCode": "2109-441900-04-01-920958",
+                "totalMoney": 1100,
+                "fullName": "东莞市寮步镇经济发展局",
+                "finishDate": "2021-09-30",
+                "stateFlagName": "办结（通过）",
+                "projectName": "东莞市寮步镇石龙坑金园新路11号改建厂区宿舍"
+            }
+        ],
+        "pageNumber": 348,
+        "pageSize": 15,
+        "totalPage": 641,
+        "totalRow": 9605,
+        "firstPage": false,
+        "lastPage": false
+    },
+    "message": "查询成功！",
+    "status": 200
+}

@@ -117,8 +117,8 @@ def run(playwright: Playwright) -> None:
    
     kk = re.compile(r'\d+(\.\d+)?')
     page_amo = int(re.findall(r'\d+',page_amo)[0])
-    amo      = int(re.findall(r'\d+(\.\d+)?',page_amo)[0]
-    i = 0
+    #amo      = int(re.findall(r'\d+(\.\d+)?',page_amo)[0]
+    i=0
     j=1
     #循环取出记录,打开页面.
     while i < rec_total:

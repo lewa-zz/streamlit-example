@@ -1,11 +1,10 @@
-import os
-import pandas as pd
-from pandas import DataFrame
-import pyecharts
-#from pyecharts.charts import *
-#from pyecharts import options as opts
-from pyecharts.commons.utils import JsCode
+import openpyxl
 from pyecharts.charts import Bar
+from pyecharts.commons.utils import JsCode
+import pyecharts
+from pandas import DataFrame
+import pandas as pd
+import os
 
 
 def read_excel():
@@ -21,7 +20,7 @@ def read_excel():
     '''
     file_path = r'/home/rico/桌面/task.xlsx'
     # sheet_name不指定时默认返回全表数据
-    df = pd.read_excel(file_path, sheet_name="Sheet1", header=2)
+    df = pd.read_excel(file_path, sheet_name="Sheet1", header=0)
 
     # 打印表数据，如果数据太多，会略去中间部分#
     # print(df)
@@ -84,6 +83,7 @@ def insert_excel():
     # 写入数据文件
     # DataFrame(df).to_excel(file_path, sheet_name='Sheet1', index=False, header=True)
 
+
 def test_pyecharts2():
     from pyecharts import options as opts
     from pyecharts.charts import Bar
@@ -123,6 +123,59 @@ def test_pyecharts2():
     )
 
 
+'''
+实现追加或者覆盖数据
+data:DataFramek类型数据
+excelname:工作簿名（注意路径！！！）
+sheetname:表名
+insert_type：w 或者 a+      （当然可以自己定义啦）
+'''
+
+
+def append_excel(data, excelname, sheetname, insert_type):
+    original_file = pd.DataFrame(pd.read_excel(
+        excelname, sheet_name=sheetname))  # 读取原数据文件和表
+    original_row = original_file.shape[0]  # 获取原数据的行数
+    if insert_type == 'w':  # 选择写入excel数据方式，w为覆盖模式，a+为追加模式
+        startrow = 1
+    elif insert_type == 'a+':
+        startrow = original_row + 1
+    book = openpyxl.load_workbook(excelname)
+    writer = pd.ExcelWriter(excelname, engine='openpyxl')
+    writer.book = book
+    writer.sheets = dict((ws.title, ws) for ws in book.worksheets)
+
+    # 将data数据写入Excel中
+    data.to_excel(writer, sheet_name=sheetname,
+                  startrow=startrow, index=False, header=False)
+    # writer.save()
+
+
+def json_to_excel(file: str):
+    fr = open(file, 'r', encoding='utf-8')
+    json_info = fr.read()
+    df = pd.read_json(json_info)
+    # df.to_csv('json_info.csv', index=False, columns=["mac", "timestamp", "volt", "temp", "acc", "sampletime"])
+    df.to_excel("jsonExcel.xlsx")
+    print(df)
+    # print(df.mac)
+
+
+def json_to_excel2(fn: str):
+    import json
+    import os
+    import pandas as pd
+    from pandas.io.json import json_normalize
+
+    file = open(fn, "r", encoding='utf-8')
+    text = file.read()
+    text = json.loads(text)
+    df = pd.json_normalize(text, 'data', ['msg', 'code'])
+    df.to_excel("jsonExcel.xlsx", encoding='utf-8')
+
+
 if __name__ == "__main__":
     # read_excel()
-    test_pyecharts2()
+    file = r"财政网的json/selectInfoMoreChannel-dg.json"
+    # test_pyecharts2()
+    json_to_excel2(file)  # 记得传入参数哦
