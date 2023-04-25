@@ -209,8 +209,8 @@
 
 
 if __name__ == "__main__":
-    from models import items
+    from models import tab_beian
 
-    items.create_tables()
-    items.append()
+    tab_beian.create_tables()
+    tab_beian.append()
     # start_flow("备案","441900",1)

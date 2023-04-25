@@ -19,7 +19,7 @@ from playwright.sync_api import Page, BrowserContext, ViewportSize, ProxySetting
 from playwright.sync_api import Playwright, Browser
 from playwright.sync_api import Response
 from playwright.sync_api import sync_playwright
-from models.items import *
+from models.tab_beian import *
 
 
 import os
@@ -179,6 +179,7 @@ def to_jsonfile(json_text: str, pagenu: int = 1):
 def to_db(data_list: list, pagenu: int = 1):
     insert__from_list(data_list)
 
+
 @flow(flow_run_name="{name}-第-{pagenu}")
 def start_flow(name: str, regionCode: str, pagenu: int = 1):
     global context
@@ -192,6 +193,7 @@ def start_flow(name: str, regionCode: str, pagenu: int = 1):
         i += 1
         if i > total_page + 1:
             b = False
+
 
 if __name__ == "__main__":
     start_flow("备案", "441900", 1)

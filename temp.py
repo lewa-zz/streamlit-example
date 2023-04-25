@@ -116,3 +116,35 @@ class TabBa(BaseModel):
         # self.page.get_by_role("link", name="更多>").nth(2).click()
         # self.page.get_by_role("combobox").select_option("441900")
         # self.page.get_by_role("button", name="查询").click()
+
+
+
+def insert_from_dict(json_str: str):
+    if json_str == "":
+        return False
+    di = json.loads(json_str)
+    if di["status"] != 200:
+        return False
+    p = TabBa()
+    p.data_id = di["data"]["id"]
+    p.add_time = di["data"]["addTime"]
+    p.apply_organ = di["data"]["applyOrgan"]
+    p.begin_date = di["data"]["beginDate"]
+    p.expiry_date = di["data"]["expiryDate"]
+    p.finish_date = di["data"]["finishDate"]
+    p.full_name = di["data"]["fullName"]
+    p.has_start = di["data"]["hasStart"]
+    p.is_validity = di["data"]["isValidity"]
+    p.note = di["data"]["note"]
+    p.over_date = di["data"]["overDate"]
+    p.place = di["data"]["place"]
+    p.project_name = di["data"]["projectName"]
+    p.proof_or_serial_code = di["data"]["proofOrSerialCode"]
+    p.scope = di["data"]["scope"]
+    p.sfjz = di["data"]["sfjz"]
+    p.state_flag_name = di["data"]["stateFlagName"]
+    p.submit_date = di["data"]["submitDate"]
+    p.total_invest = di["data"]["totalInvest"]
+    p.update_time = di["data"]["updateTime"]
+    p.save()
+    return True

@@ -20,8 +20,7 @@ from playwright.sync_api import Page, BrowserContext, ViewportSize, ProxySetting
 from playwright.sync_api import Playwright, Browser
 from playwright.sync_api import Response
 from playwright.sync_api import sync_playwright
-from models.items import *
-from models.tab_ba import *
+from models.tab_beian import *
 
 import os
 import sys
